@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+:root{
+    --font-primary : #fff;
+    --nav-color : #0065c3;
+    --bg-color-pepsi-one : black;
+}
+body{
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+.custom-nav{
+    display: flex;
+    background-color: var(--nav-color);
+    height: 65px;
+    font-size: 0.5rem;
+    font-weight: bold;
+    
+}
+.custom-nav > img{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+.custom-nav > ul{
+    display: flex;
+    gap: 1rem;
+}
+.custom-nav > ul > li{
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.custom-nav > ul > li > a {
+    text-decoration: none;
+    color: var( --font-primary);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav-button{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style-type: none;
+}
+.nav-button-gap{
+    margin-right: 10px;
+    color: var(--nav-color);
+    
+}
+.nav-button > li > a{
+    text-decoration: none;
+    color: var(--font-primary);
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid var(--font-primary);
+    padding: 0.3rem 1.25rem 0.3rem 1.25rem;
+    border-radius: 1.5rem;
+}
+.pepsi-one-container{
+    display: flex;
+    justify-content: center;
+}
+.pepsi-one-container > img:nth-child(1){
+    position: relative;
+    width: 50%;
+}
+.pepsi-one-container > img:nth-child(2){
+    margin-top: 100px;
+    margin-right: 80px;
+    position: absolute;
+    width: 10%;
+}
+.pepsi-one-container > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pepsi-one-container > .container > img:nth-child(2){
+    margin-top: 1rem;
+    
+}
+.pepsi-one-container > .container > img:nth-child(1){
+    width: 160%;
+}
+.pepsi-one-container > .container > img:nth-child(2){
+    width: 120%;
+}
+
+.pepsi-two > .container{
+    display: flex;
+    background-image: url('https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png');
+    background-position: 50% center;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.pepsi-two-left{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.pepsi-two-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pepsi-two-left > img{
+    width: 70%;
+}
+.pepsi-two-right > img{
+    width: 70%;
+
+}
+.pepsi-two-right > h2{
+    color: var(--font-primary);
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.pepsi-two-right > li{
+    list-style-type: none;
+
+}
+.pepsi-two-right > li > a{
+    color: var(--font-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.5rem;
+    border: 2px solid var(--font-primary);
+    padding: 0.45rem 1.25rem 0.45rem 1.25rem;
+    border-radius: 1rem;
+}
+footer{
+    font-family: 'Ubuntu';
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.footer-container{
+    display: flex;
+    background-color: var(--nav-color);
+    padding: 60px;
+    
+}
+.footer-container > img{
+    width: 60px;
+    height: 60px;
+
+}
+.footer-text{
+    display: block;
+    flex-direction: column;
+    column-count: 3;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+.footer-text > li{
+    list-style-type: none;
+    cursor: default;
+    margin-bottom: 5px;
+}
+.footer-text > li > a{
+    color: var(--font-primary);
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer-button{
+    list-style-type: none;
+    margin: auto 50px auto auto;
+    border: 2px solid var(--font-primary);
+    padding: 5px 24px 5px 24px;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer-button > a{
+    font-size: 0.5rem;
+    color: var(--font-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.footer-icon > a > img{
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+}
